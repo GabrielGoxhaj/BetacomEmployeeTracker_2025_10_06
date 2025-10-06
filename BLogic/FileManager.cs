@@ -115,7 +115,7 @@ namespace LavoratoriEx_10062025.BLogic
 
             foreach (var employeeActivities in listEmployeesActivitiess)
             {
-                Console.WriteLine($"Matricola: {employeeActivities.Matricola} ha lavorato {employeeActivities.OreLavorative} ores in data {employeeActivities.Data} presso {employeeActivities.Luogo}");
+                Console.WriteLine($"Matricola: {employeeActivities.Matricola} ha lavorato {employeeActivities.OreLavorative} ore in data {employeeActivities.Data} presso {employeeActivities.Luogo}");
             }
 
             Console.ForegroundColor = ConsoleColor.Yellow;
