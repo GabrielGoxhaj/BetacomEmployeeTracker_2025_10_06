@@ -1,0 +1,15 @@
+1) Importare due file txt, che definiscono l'anagrafica impiegati e le giornate di lavoro degli impiegati (non tutti gli impiegati hanno lavorato, lazzaroni).
+2) Entrambi i file txt, hanno una struttura ben definita, la chiave di collegamento è definita da 4 caratteri, il primo sempre alfabetico seguito da tre numeri.
+3) Il ragionamento che si potrebbe fare, o meglio gli step di progettazione app:
+	A) Determinare correttamente la struttura dei campi, controlla la riga, e creare le due
+	   classi: Anagrafica / Attività
+	B) Quando avete le classi scegliere se importare prima le anagrafiche in una lista
+	   e poi iterare sulla lista, importando il file txt delle attività. Sarà la chiave/
+	   matricola, che determinerà il caricamento delle attività lavorative in quella istanze
+	   del dipendente (ossia, quello corrente nel ciclo di iterazione).
+	C) Oppure importare in contemporanea i due file, e creare la lista di oggetti composti (
+	   Anagrafica + Attività)
+4) Quando ho la lista, o le due liste, complete creare una stampa globale a video, del tipo:
+Dati anagrafici di base, e sotto allineate e in sequenza, le eventuali giornate lavorative.
+
+CONSIDERAZIONI: I dati, non dovrebbero essere importati se NON conformi: Matricola non valida, campo mancate, date errate. In questo caso sarebbe opportuno segnalare le righe errate.
