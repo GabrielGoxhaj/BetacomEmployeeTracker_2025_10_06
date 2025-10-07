@@ -1,5 +1,5 @@
-﻿using LavoratoriEx_10062025.DataModel;
-using LavoratoriEx_10062025.BLogic;
+﻿using BetacomEmployeeTracker_2025_10_06.BLogic;
+using BetacomEmployeeTracker_2025_10_06.DataModel;
 
 namespace LavoratoriEx_10062025
 {

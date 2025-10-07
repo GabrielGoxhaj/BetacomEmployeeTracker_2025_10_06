@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LavoratoriEx_10062025.DataModel
+namespace BetacomEmployeeTracker_2025_10_06.DataModel
 {
     internal class EmployeesActivities
     {

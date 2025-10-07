@@ -1,4 +1,4 @@
-﻿using LavoratoriEx_10062025.DataModel;
+﻿using BetacomEmployeeTracker_2025_10_06.DataModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LavoratoriEx_10062025.BLogic
+namespace BetacomEmployeeTracker_2025_10_06.BLogic
 {
     internal class EmployeesManager
     {
