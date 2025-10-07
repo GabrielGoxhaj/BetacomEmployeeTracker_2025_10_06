@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -72,7 +73,8 @@ namespace BetacomEmployeeTracker_2025_10_06.BLogic
                         trovato = true;
 
                         // Pezzo codice per le attività
-
+                        Console.WriteLine(rowSeparator);
+                        FindEmployeeActivities.FindEmployeeActivitiesById(MatricolaInserita);
                         // Pezzo codice per le attività
 
                         break;

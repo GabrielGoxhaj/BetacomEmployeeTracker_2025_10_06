@@ -76,7 +76,7 @@ namespace BetacomEmployeeTracker_2025_10_06.BLogic
 
         public static List<EmployeesActivities> ReadActivitiesFile()
         {
-            List<EmployeesActivities> listEmployeesActivitiess = [];
+            List<EmployeesActivities> listEmployeesActivities = [];
             string rowSeparator = new string('-', 100);
 
             string fileName = "EmployeesActivities.txt";
@@ -104,7 +104,7 @@ namespace BetacomEmployeeTracker_2025_10_06.BLogic
                     continue;
                 }
 
-                listEmployeesActivitiess.Add(new EmployeesActivities
+                listEmployeesActivities.Add(new EmployeesActivities
                 {
                     Data = fields[0],
                     Luogo = fields[1],
@@ -113,7 +113,7 @@ namespace BetacomEmployeeTracker_2025_10_06.BLogic
                 });
             }
 
-            foreach (var employeeActivities in listEmployeesActivitiess)
+            foreach (var employeeActivities in listEmployeesActivities)
             {
                 Console.WriteLine($"Matricola: {employeeActivities.Matricola} ha lavorato {employeeActivities.OreLavorative} ore in data {employeeActivities.Data} presso {employeeActivities.Luogo}");
             }
@@ -125,7 +125,7 @@ namespace BetacomEmployeeTracker_2025_10_06.BLogic
             Console.ForegroundColor = ConsoleColor.White;
             Loading.LoadingMenu();
 
-            return listEmployeesActivitiess;
+            return listEmployeesActivities;
         }
 
         // TODO
