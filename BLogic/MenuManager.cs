@@ -43,7 +43,7 @@ namespace BetacomEmployeeTracker_2025_10_06.BLogic
                     FileManager.ReadActivitiesFile();
                     break;
                 case 5:
-                    FileManager.ReadActivitiesFile();
+                    FindEmployee.FindEmployeebyId();
                     break;
                 case 9:
                     Console.WriteLine("Adieau e buon caffè");
