@@ -1,0 +1,16 @@
+ATTIVITA' 07.10.2025, POMERIGGIO.
+A) IMPLEMENTARE DUE OGGETTI DIFFERENTI, PER VISUALIZZARE A VIDEO UNA "SCHEDA DIPENDENTE".
+
+	1) Viene richiesto il nominativo del dipendente da visualizzare (dalla lista che avete
+	   caricato).
+	2) A video viene stampato (visualizzato):
+		a) Matricola
+		b) Nominativo completo
+		c) Reparto
+		d) Giorni Presenza
+		e) Ore Totali
+		f) Data ultimo giorno lavorato
+B) IMPORTANTE: La scheda dipendente deve essere un oggetto, strutturato con le informazioni del
+   punto 2.
+D) FINE
+
