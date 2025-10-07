@@ -16,11 +16,12 @@ namespace BetacomEmployeeTracker_2025_10_06.BLogic
             Console.WriteLine("========= Gestionale Lavoratori Betacom =========");
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("1. Vedere i lavoratori");
-            Console.WriteLine("2. Vedere i lavoratori veramente lavoratori");
-            Console.WriteLine("3. Vedere i lavoratori lazzaroni nullafacenti");
+            Console.WriteLine("2. Vedere i lavoratori con timbrature (W.I.P.)");
+            Console.WriteLine("3. Vedere i lavoratori lazzaroni nullafacenti (W.I.P.)");
             Console.WriteLine("4. Vedere le timbrature");
+            Console.WriteLine("5. Vedere un lavoratore nello specifico");
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("5. Chiudere il programma");
+            Console.WriteLine("9. Chiudere il programma");
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine(rowSeparator);
             Console.ForegroundColor = ConsoleColor.White;
@@ -42,6 +43,9 @@ namespace BetacomEmployeeTracker_2025_10_06.BLogic
                     FileManager.ReadActivitiesFile();
                     break;
                 case 5:
+                    FileManager.ReadActivitiesFile();
+                    break;
+                case 9:
                     Console.WriteLine("Adieau e buon caffè");
                     break;
                 default:
