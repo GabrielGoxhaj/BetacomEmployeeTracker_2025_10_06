@@ -126,7 +126,6 @@ namespace BetacomEmployeeTracker_2025_10_06.BLogic
             Loading.LoadingMenu();
 
             return listEmployeesActivitiess;
-
         }
 
         // TODO

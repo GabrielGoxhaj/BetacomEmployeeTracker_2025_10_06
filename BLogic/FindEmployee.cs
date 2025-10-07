@@ -59,7 +59,7 @@ namespace BetacomEmployeeTracker_2025_10_06.BLogic
                 Console.Write("Non hai inserito un numero matricola. Premi un tasto per ricominciare la ricerca");
                 Console.ForegroundColor = ConsoleColor.White;
                 Console.ReadKey();
-                FindEmployee.FindEmployeebyId();
+                FindEmployeebyId();
             }
             else
             {
@@ -68,12 +68,13 @@ namespace BetacomEmployeeTracker_2025_10_06.BLogic
                 {
                     if (employee.Matricola == MatricolaInserita)
                     {
-                        Console.WriteLine($"{employee.NomeCognome} n° {employee.Matricola} - " +
-                            $"{employee.Mansione} presso {employee.Reparto} - " +
-                            $"Anni: {employee.Età} - " +
-                            $"Residente a {employee.Indirizzo}, {employee.Città} ({employee.Provincia}) {employee.CAP} - " +
-                            $"Numero di telefono: {employee.Telefono}");
+                        Console.WriteLine($"N° Matricola: {employee.Matricola} - {employee.NomeCognome} - {employee.Reparto}");
                         trovato = true;
+
+                        // Pezzo codice per le attività
+
+                        // Pezzo codice per le attività
+
                         break;
                     }
                 }
