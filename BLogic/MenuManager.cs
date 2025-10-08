@@ -34,10 +34,10 @@ namespace BetacomEmployeeTracker_2025_10_06.BLogic
                     FileManager.ReadEmployeesFile();
                     break;
                 case 2:
-                    FileManager.ReadWorkingEmployeesFile();
+                    //FileManager.ReadWorkingEmployeesFile();
                     break;
                 case 3:
-                    FileManager.ReadNotWorkingEmployeesFile();
+                    //FileManager.ReadNotWorkingEmployeesFile();
                     break;
                 case 4:
                     FileManager.ReadActivitiesFile();
