@@ -128,51 +128,53 @@ namespace BetacomEmployeeTracker_2025_10_06.BLogic
             return listEmployeesActivities;
         }
 
-        // TODO
-        public static List<Employees> ReadWorkingEmployeesFile()
-        {
-            List<Employees> listEmployees = [];
-            string rowSeparator = new string('-', 100);
+        //// TODO
+        
+        //public static List<Employees> ReadWorkingEmployeesFile()
+        //{
+        //    List<Employees> listEmployees = [];
+        //    string rowSeparator = new string('-', 100);
 
-            string fileName = "Employees.txt";
-            string filePath = @"..\..\..\Data";
+        //    string fileName = "Employees.txt";
+        //    string filePath = @"..\..\..\Data";
 
-            string[] employeeTxt = File.ReadAllLines(Path.Combine(filePath, fileName));
+        //    string[] employeeTxt = File.ReadAllLines(Path.Combine(filePath, fileName));
 
-            Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine(rowSeparator);
-            Console.WriteLine("Questo menù deve essere ancora implementato");
-            Console.WriteLine("Premi un tasto per tornare al menù principale");
-            Console.ReadKey();
-            Console.ForegroundColor = ConsoleColor.White;
-            Loading.LoadingMenu();
+        //    Console.Clear();
+        //    Console.ForegroundColor = ConsoleColor.Yellow;
+        //    Console.WriteLine(rowSeparator);
+        //    Console.WriteLine("Questo menù deve essere ancora implementato");
+        //    Console.WriteLine("Premi un tasto per tornare al menù principale");
+        //    Console.ReadKey();
+        //    Console.ForegroundColor = ConsoleColor.White;
+        //    Loading.LoadingMenu();
 
-            return listEmployees;
-        }
+        //    return listEmployees;
+        //}
 
-        // TODO
-        public static List<Employees> ReadNotWorkingEmployeesFile()
-        {
-            List<Employees> listEmployees = [];
-            string rowSeparator = new string('-', 100);
+        //// TODO
+        
+        //public static List<Employees> ReadNotWorkingEmployeesFile()
+        //{
+        //    List<Employees> listEmployees = [];
+        //    string rowSeparator = new string('-', 100);
 
-            string fileName = "Employees.txt";
-            string filePath = @"..\..\..\Data";
+        //    string fileName = "Employees.txt";
+        //    string filePath = @"..\..\..\Data";
 
-            string[] employeeTxt = File.ReadAllLines(Path.Combine(filePath, fileName));
+        //    string[] employeeTxt = File.ReadAllLines(Path.Combine(filePath, fileName));
             
-            Console.Clear();
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine(rowSeparator);
-            Console.WriteLine("Questo menù deve essere ancora implementato");
-            Console.WriteLine("Premi un tasto per tornare al menù principale");
-            Console.ReadKey();
-            Console.ForegroundColor = ConsoleColor.White;
-            Loading.LoadingMenu();
+        //    Console.Clear();
+        //    Console.ForegroundColor = ConsoleColor.Yellow;
+        //    Console.WriteLine(rowSeparator);
+        //    Console.WriteLine("Questo menù deve essere ancora implementato");
+        //    Console.WriteLine("Premi un tasto per tornare al menù principale");
+        //    Console.ReadKey();
+        //    Console.ForegroundColor = ConsoleColor.White;
+        //    Loading.LoadingMenu();
 
-            return listEmployees;
-        }
+        //    return listEmployees;
+        //}
 
     }
 }
